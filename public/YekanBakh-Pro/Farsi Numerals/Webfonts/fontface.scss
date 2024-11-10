@@ -1,0 +1,83 @@
+/**
+*
+*	Name:			Yekan Bakh Fonts
+*	Version:			2.4
+*	Author:			Reza Bakhtiarifard (rbakhtiarifard.ir)
+*	Created on:		Jan 2024
+*	Updated on:		Jan 2024
+*	Vendor:			http://fontiran.com
+*	Copyright:		Commercial/Proprietary Software
+--------------------------------------------------------------------------------------
+فونت یکان بخ یک نرم افزار مالکیتی محسوب می شود. جهت آگاهی از قوانین استفاده از این فونت ها لطفا به وب سایت (فونت ایران دات کام) مراجعه نمایید
+--------------------------------------------------------------------------------------
+Yekan Bakh fonts are considered a proprietary software. To gain information about the laws regarding the use of these fonts, please visit www.fontiran.com 
+--------------------------------------------------------------------------------------
+This set of fonts are used in this project under the license: (.....)
+------------------------------------------------------------------------------------- fonts/-
+*	
+**/
+
+
+@font-face {
+	font-family: Yekan Bakh;
+	font-style: normal;
+	font-weight: 100;
+	src: url('woff/YekanBakh-thin.woff') format('woff'),   
+	url('woff2/YekanBakh-thin.woff2') format('woff2');		
+}
+
+@font-face {
+	font-family: Yekan Bakh;
+	font-style: normal;
+	font-weight: 300;
+	src: url('woff/YekanBakh-Light.woff') format('woff'),   
+	url('woff2/YekanBakh-Light.woff2') format('woff2');	
+}
+
+@font-face {
+	font-family: Yekan Bakh;
+	font-style: normal;
+	font-weight: normal;
+	src: url('woff/YekanBakh-Regular.woff') format('woff'),   
+	url('woff2/YekanBakh-Regular.woff2') format('woff2');		 
+}
+
+@font-face {
+	font-family: Yekan Bakh;
+	font-style: normal;
+	font-weight: 600;
+	src: url('woff/YekanBakh-SemiBold.woff') format('woff'),   
+	url('woff2/YekanBakh-SemiBold.woff2') format('woff2');		 
+}
+
+@font-face {
+	font-family: Yekan Bakh;
+	font-style: normal;
+	font-weight: bold;
+	src: url('woff/YekanBakh-Bold.woff') format('woff'),   
+	url('woff2/YekanBakh-Bold.woff2') format('woff2'); 
+}
+
+@font-face {
+	font-family: Yekan Bakh;
+	font-style: normal;
+	font-weight: 800;
+	src: url('woff/YekanBakh-ExtraBold.woff') format('woff'),   
+	url('woff2/YekanBakh-ExtraBold.woff2') format('woff2');		 
+}
+
+@font-face {
+	font-family: Yekan Bakh;
+	font-style: normal;
+	font-weight: 900;
+	src: url('woff/YekanBakh-Black.woff') format('woff'),   
+	url('woff2/YekanBakh-Black.woff2') format('woff2');		 
+}
+
+@font-face {
+	font-family: Yekan Bakh;
+	font-style: normal;
+	font-weight: 950;
+	src: url('woff/YekanBakh-ExtraBlack.woff') format('woff'),   
+	url('woff2/YekanBakh-ExtraBlack.woff2') format('woff2');		 
+}

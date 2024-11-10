@@ -1,0 +1,62 @@
+.ever{
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+    text-align: right;
+    color: white;
+    margin-top: 2rem;
+    padding: 2rem;
+    background-image: linear-gradient(to right, #ff3a30, #ff6a00) !important;
+    .buy{
+        h2{
+            font-size: 18px;
+            font-weight: 800;
+        }
+        ul{
+            padding: 0;
+            list-style: none;
+            li{
+                opacity: 0.8;
+            }
+        }
+    }
+    .product{
+        h2{
+            font-size: 18px;
+            font-weight: 800;
+        }
+        ul{
+            padding: 0;
+            list-style: none;
+            li{
+                opacity: 0.8;
+            }
+        }
+    }
+    .about{
+        h2{
+            font-size: 18px;
+            font-weight: 800;
+        }
+        ul{
+            padding: 0;
+            list-style: none;
+            li{
+                opacity: 0.8;
+            }
+        }
+    }
+    .icon{
+        h2{
+            font-size: 18px;
+            font-weight: 800;
+        }
+        ul{
+            padding: 0;
+            list-style: none;
+            li{
+                opacity: 0.8;
+            }
+        }
+    }
+}

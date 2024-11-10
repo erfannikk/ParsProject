@@ -1,0 +1,82 @@
+*{
+    font-family: IRANSansX, "Helvetica Neue", sans-serif !important;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    .page{
+        background: linear-gradient(0deg, hsla(0, 0%, 5%, .14), hsla(0, 0%, 5%, .14)), linear-gradient(90deg, #b21535, #8a1029 79.18%, #1c0006);
+        width: 90%;
+        border-radius: 10px;
+        margin-top: 3rem;
+        .ever{
+            display: flex;
+            align-items: center;
+            background-image: url(https://pars.parskalas.com/wp-content/uploads/2022/07/patterns.png);
+            background-position: right !important;
+            background-size: contain !important;
+            .right{
+                text-align: center;
+                color: white;
+            }
+        }
+    }
+}
+.b-g{
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+    .study{
+    background: linear-gradient(0deg, hsla(0, 0%, 5%, .07), hsla(0, 0%, 5%, .07)), linear-gradient(93.39deg, #9dc44f 2.8%, #586e2d 50.49%, #020202 97.21%);
+    width: 90%;
+    border-radius: 10px;
+    display: flex;
+    color: white;
+    padding: 2rem;
+    gap: 2rem;
+    align-items: center;
+    .matn{
+        width: 40%;
+        h2{
+            margin: 0;
+            font-weight: 900;
+        }
+        p{
+            opacity: 0.7;
+        }
+    }
+    .picture{
+        display: flex;
+        width: 60%;
+        justify-content: space-around;
+        gap: 2rem;
+        img{
+            width: 4rem;
+            height: 4rem;
+            border-radius: 8px;
+        }
+        .offer{
+            display: flex;
+            justify-content: center;
+            p{
+                background-image: linear-gradient(to right, #ff3a30, #ff6a00) !important;
+                border-radius: 8px;
+                width: 2.5rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+}
+}
+.baner{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding-top: 2rem;
+    img{
+        width: 20rem;
+        border-radius: 8px;
+    }
+}

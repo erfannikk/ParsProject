@@ -1,0 +1,27 @@
+@use "../public/Scss/fonts";
+@import "primeicons/primeicons.css";
+@import 'swiper/css/bundle';
+
+body{
+  font-family: IRANSansX, "Helvetica Neue", sans-serif !important;
+  direction: rtl;
+}
+html, body { 
+  height: 100%;
+  margin: 0; 
+}
+.p-ripple .p-element .p-button .p-component .p-button-secondary .p-button-outlined{
+  cursor: pointer;
+  width: 6rem;
+  height: 2rem;
+  border: 2px solid #bbb;
+  background-color: white;
+  border-radius: 7px;
+  font-weight: 500;
+  padding: 0;
+}
+.p-button.p-button-secondary.p-button-outlined, .p-button-group.p-button-secondary > .p-button.p-button-outlined, .p-splitbutton.p-button-secondary > .p-button.p-button-outlined{
+  font-family: IRANSansX, "Helvetica Neue", sans-serif !important;
+  padding: 0.7rem;
+    font-size: 13px;
+}
