@@ -1,0 +1,143 @@
+<div class="page">
+  <div class="ever">
+    <div class="right">
+      <div class="para">
+        <h2>پیشنهاد ویژه !</h2>
+      </div>
+      <div class="photo">
+        @for(items of picture; track items.id; let i = $index){
+        <img [src]="items.img" [alt]="items.alt" />}
+      </div>
+      <div class="down-photo">
+        @for(collection of list; track collection.id; let i = $index){
+        <img [src]="collection.photo" [alt]="collection.alt" />}
+      </div>
+    </div>
+    <div class="center">
+      <div class="para2">
+        <h2>گوشی موبایل اپل مدل iPhone 13 A2634 دو سیم‌ کارت</h2>
+        <p>
+          Apple iPhone 13 Pro Max A2644 Dual SIM 256GB And 6GB RAM Mobile Phone
+          - Activate
+        </p>
+      </div>
+      <div class="garanty">
+        <h3>گارانتی</h3>
+        <div class="card flex justify-content-center gap-3">
+          <p-button
+            label=" گارانتی 18 ماهه شرکتی معتبر "
+            icon="pi pi-check"
+            [loading]="loading"
+            (onClick)="load()"
+            iconPos="right"
+          />
+        </div>
+      </div>
+      <div class="property">
+        <h2>ویژگی های محصول</h2>
+        <ul>
+          <li>
+            <p>انتخاب رنگ :</p>
+            آبی, استیل, برنز, بنفش, سرمه ایی, سفید, طلایی, قرمز, مشکی, نارنجی,
+            نقره ای
+          </li>
+          <li>
+            <p>گارانتی :</p>
+            گارانتی 18 ماهه شرکتی معتبر
+          </li>
+          <li><p>جنس بدنه : شیشه – سرامیک شیلد</p></li>
+          <li><p>ابعاد : 160.8 *78.1 *7.7 میلی‌متر</p></li>
+        </ul>
+        <h3><i class="bx bx-plus" style="color: #1051ef"></i> نمایش بیشتر</h3>
+      </div>
+      <div class="cancel">
+        <div class="icon">
+          <i class="bx bx-error-circle bx-tada" style="color: #81858b"></i>
+        </div>
+        <div class="matn">
+          <p>
+            امکان برگشت کالا با دلیل "انصراف از خرید" تنها در صورتی مورد قبول
+            است که پلمب کالا باز نشده باشد.
+          </p>
+        </div>
+      </div>
+      <div class="send">
+        <h3>شرایط ارسال کالا <img src="image/icon.svg" alt="ایکون" /></h3>
+        <ul>
+          <li>ارسال از انبار تهران: 1 الی 2 روز کاری</li>
+          <li>ارسال از انبار اصفهان: تحویل فوری</li>
+        </ul>
+      </div>
+    </div>
+    <div class="left">
+      <div class="up-box">
+        <div class="brand">
+          <h3><i class="bx bx-home-smile"></i> فروشگاه اینترنتی پارس کالا</h3>
+          <span> منتخب </span>
+        </div>
+        <div class="property2">
+          <p><span> %96 </span> رضایت خریداران</p>
+          <h5>عملکرد <span> عالی </span></h5>
+        </div>
+      </div>
+      <div class="garanty2">
+        <h3><i class="bx bx-check-shield"></i> گارانتی ریجیستر شده شرکت</h3>
+      </div>
+      <div class="refresh">
+        <h3><i class="bx bx-refresh"></i> تضمین اصالت و سلامت</h3>
+      </div>
+      <div class="send-box">
+        <h3><i class="bx bxs-share"></i> ارسال توسط پارس کالا</h3>
+      </div>
+      <div class="down-box">
+        <p>بروزرسانی قیمت: 30 مهر 1403</p>
+        <div class="btn">
+          <p-inputNumber
+            [(ngModel)]="value1"
+            [style]="{ width: '4rem' }"
+            [showButtons]="true"
+            buttonLayout="vertical"
+            spinnerMode="vertical"
+            inputId="vertical"
+            decrementButtonClass="p-button-secondary"
+            incrementButtonClass="p-button-secondary"
+            incrementButtonIcon="bx bx-plus"
+            decrementButtonIcon="bx bx-minus"
+          />
+          <p-button label="Sub" />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="ever-icon">
+  <div class="icon-box">
+    <div class="chart-icon">
+      <img src="image/icon.png" alt=" تحویل اکسپرس " />
+      <p>تحویل اکسپرس</p>
+    </div>
+    <div class="chart-icon">
+      <img src="image/icon2.png" alt=" پشتیبانی ۲۴ ساعته " />
+      <p>پشتیبانی ۲۴ ساعته</p>
+    </div>
+    <div class="chart-icon">
+      <img src="image/icon3.png" alt=" پرداخت در محل " />
+      <p>پرداخت در محل</p>
+    </div>
+    <div class="chart-icon">
+      <img src="image/icon4.png" alt=" ۷ روز ضمانت بازگشت کالا " />
+      <p>۷ روز ضمانت بازگشت کالا</p>
+    </div>
+  </div>
+</div>
+<div class="ever-paragraph">
+  <div class="paragraph">
+    <div class="titlee">
+      <h2>کالا هایی که دیده ایید !</h2>
+    </div>
+    <div class="pic-para">      
+      @for(item of items; track item.id; let i = $index){
+        <img [src]="item.title" [alt]="item.alt" />}   
+    </div>
+  </div>
+</div>

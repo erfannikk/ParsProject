@@ -6,22 +6,24 @@
           <img src="image/br.png" alt="brand">
        </div>
        <div class="form">
+            <form [formGroup]="myform" (keypress)="clicked()">
              <p-iconField iconPosition="right">
                   <p-inputIcon styleClass="pi pi-search" />
-                  <input type="text" pInputText placeholder=" جستجو " />
+                  <input type="text" pInputText placeholder=" جستجو "formControlName="search" />
              </p-iconField>
+            </form>
        </div>
     </div>
-    <div class="butt" >
-        <p-button label=" ورود / ثبت نام " [outlined]="true" severity="secondary" routerlink="/login"/>
+    <div class="butt">
+        <p-button label=" ورود / ثبت نام " [outlined]="true" severity="secondary" />
     </div>
 </div>
 <div class="down-header">
     <div class="right">
             <ul>
                   <li> دسته بندی کالاها </li>
-                  <li routerLink="/app.component.html"> صفحه اصلی </li>
-                  <li class="position"> لیست کالا ها 
+                  <li>  صفحه اصلی </li>
+                  <li class="position"><img src="image/store.png" alt=" ایکون "> لیست کالا ها 
                   <ul class="p-h">  
                     <ul class="list"> 
                        <li class="title"> آرایشی بهداشتی و سلامت </li>

@@ -1,11 +1,10 @@
-import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
 import { ButtonModule } from 'primeng/button';
 import { InputIconModule } from 'primeng/inputicon';
 import { IconFieldModule } from 'primeng/iconfield';
 import { InputTextModule } from 'primeng/inputtext';
-import { FormsModule } from '@angular/forms';
 import {MatIconModule} from '@angular/material/icon';
-import { RouterLink } from '@angular/router';
+import {  FormControl, FormGroup, FormsModule, ReactiveFormsModule, Validators  } from '@angular/forms';
 
 @Component({
   selector: 'app-header',
@@ -16,11 +15,24 @@ import { RouterLink } from '@angular/router';
     InputTextModule,
     FormsModule,
     MatIconModule,
-    RouterLink],
+    ReactiveFormsModule],
   templateUrl: './header.component.html',
   styleUrl: './header.component.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class HeaderComponent {
+export class HeaderComponent implements OnInit{
+  constructor(){}
 
+  myform: FormGroup;
+
+  ngOnInit(): void {
+    this.myform = new FormGroup({
+      search: new FormControl('' , [Validators.required])
+    });
+    
+};
+clicked(){
+      console.log(this.myform)
+    }
+    
 }

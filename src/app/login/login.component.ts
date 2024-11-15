@@ -7,13 +7,14 @@ import { InputGroupModule } from 'primeng/inputgroup';
 import { InputGroupAddonModule } from 'primeng/inputgroupaddon';
 
 
+
 @Component({
   selector: 'app-login',
   standalone: true,
   imports: [FormsModule, InputTextModule,
   HeaderComponent,
   FooterComponent,InputGroupModule,
-  InputGroupAddonModule],
+  InputGroupAddonModule,],
   templateUrl: './login.component.html',
   styleUrl: './login.component.scss'
 })

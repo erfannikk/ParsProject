@@ -7,6 +7,7 @@ import { ContentComponent } from './content/content.component';
 import { ExmpleComponent } from './exmple/exmple.component';
 import { FooterComponent } from './footer/footer.component';
 
+
 @Component({
   selector: 'app-root',
   standalone: true,
@@ -15,8 +16,7 @@ import { FooterComponent } from './footer/footer.component';
     SliderComponent,   
     ContentComponent,   
     ExmpleComponent,   
-    FooterComponent,   
-    RouterOutlet],
+    FooterComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
   schemas:[ CUSTOM_ELEMENTS_SCHEMA ]
