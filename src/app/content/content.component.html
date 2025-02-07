@@ -134,9 +134,9 @@
   </div>
 </div>
 <div class="ever-baner">
-@for(item of photo; track item.id; let i = $index){
-<div class="baner">
-  <img [src]="item.imageurl" [alt]="item.alt" />
-</div>
-}
+  @for(item of photo; track item.id; let i = $index){
+  <div class="baner">
+    <img [src]="item.imageurl" [alt]="item.alt" />
+  </div>
+  }
 </div>
