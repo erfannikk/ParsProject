@@ -1,10 +1,12 @@
 <app-header class="pos"></app-header>
+<!-- صفحه کالاها -->
 <div class="page">
   <div class="ever">
     <div class="right">
       <div class="para">
         <h2>پیشنهاد ویژه !</h2>
       </div>
+      <!-- تصویر کالاها -->
       <div class="photo">
         @for(items of picture; track items.id; let i = $index){
         <img [src]="items.img" [alt]="items.alt" />}
@@ -22,6 +24,7 @@
           - Activate
         </p>
       </div>
+      <!-- توضیحات کالاها -->
       <div class="garanty">
         <h3>گارانتی</h3>
         <div class="card flex justify-content-center gap-3">
@@ -62,6 +65,7 @@
           </p>
         </div>
       </div>
+      <!-- باکس ارسال -->
       <div class="send">
         <h3>شرایط ارسال کالا <img src="image/icon.svg" alt="ایکون" /></h3>
         <ul>
@@ -90,6 +94,7 @@
       <div class="send-box">
         <h3><i class="bx bxs-share"></i> ارسال توسط پارس کالا</h3>
       </div>
+      <!-- باکس تعداد و قیمت -->
       <div class="down-box">
         <p>بروزرسانی قیمت: 30 مهر 1403</p>
         <div class="btn">
@@ -112,6 +117,7 @@
   </div>
 </div>
 <div class="ever-icon">
+  <!-- اطلاعات ارسال -->
   <div class="icon-box">
     <div class="chart-icon">
       <img src="image/icon.png" alt=" تحویل اکسپرس " />
