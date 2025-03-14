@@ -1,38 +1,12 @@
-import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
-import { ButtonModule } from 'primeng/button';
-import { InputIconModule } from 'primeng/inputicon';
-import { IconFieldModule } from 'primeng/iconfield';
-import { InputTextModule } from 'primeng/inputtext';
-import {MatIconModule} from '@angular/material/icon';
-import {  FormControl, FormGroup, FormsModule, ReactiveFormsModule, Validators  } from '@angular/forms';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-header',
   standalone: true,
-  imports: [ButtonModule,
-    InputIconModule,
-    IconFieldModule,
-    InputTextModule,
-    FormsModule,
-    MatIconModule,
-    ReactiveFormsModule],
+  imports: [],
   templateUrl: './header.component.html',
-  styleUrl: './header.component.scss',
-  changeDetection: ChangeDetectionStrategy.OnPush,
+  styleUrl: './header.component.scss'
 })
-export class HeaderComponent implements OnInit{
-  constructor(){}
+export class HeaderComponent {
 
-  myform: FormGroup;
-
-  ngOnInit(): void {
-    this.myform = new FormGroup({
-      search: new FormControl('' , [Validators.required])
-    });
-    
-};
-clicked(){
-      console.log(this.myform)
-    }
-    
 }
